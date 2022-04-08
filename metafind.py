@@ -5,6 +5,9 @@ from colorama import Fore
 import os
 import requests
 
+import collections
+collections.Callable = collections.abc.Callable
+
 class Metafind:
     def __init__(self, domain, output):
         self.domain = arguments.domain
